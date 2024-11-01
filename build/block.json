@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wpapps-tc/table-collapser",
+  "title": "Table Collapser",
+  "category": "common",
+  "icon": "editor-table",
+  "description": "A block that makes tables collapsible.",
+  "attributes": {
+    "dataTitle": {
+      "type": "string",
+      "default": "Table"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "editorScript": "wpapps-tc-table-collapser-block-editor",
+  "editorStyle": "wpapps-tc-table-collapser-block-editor",
+  "style": "wpapps-tc-table-collapser-frontend"
+}

@@ -1,0 +1,45 @@
+.collapsible-table tbody {
+    display: table-row-group; /* Ensure tbody is displayed by default */
+}
+
+.collapsible-table thead,
+.collapsible-table tr:first-child {
+    cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+}
+
+.toggle-indicator {
+    float: right;
+    font-weight: 900;
+}
+
+.toggle-indicator-mobile {
+    float: right;
+    font-weight: 900;
+}
+
+/* Mobile responsive table styles */
+.ml-table {
+    padding: 20px 0;
+}
+
+.ml-table dt {
+    font-weight: bold;
+}
+
+.ml-table dd {
+    margin-left: 0;
+    margin-bottom: 0.5em;
+    clear: both;
+}
+
+.ml-table dl:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.ml-row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.ml-row:nth-child(odd) {
+    background-color: #ffffff;
+}
